@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "module": "index.ts",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.js"
+  }
+}
